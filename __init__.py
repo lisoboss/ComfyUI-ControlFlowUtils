@@ -10,7 +10,7 @@ __author__ = """lisoboss"""
 __email__ = "37949544+lisoboss@users.noreply.github.com"
 __version__ = "0.0.1"
 
-from .src.controlflowutils.nodes import NODE_CLASS_MAPPINGS
-from .src.controlflowutils.nodes import NODE_DISPLAY_NAME_MAPPINGS
+from .src.controlflowutils import NODE_CLASS_MAPPINGS
+from .src.controlflowutils import NODE_DISPLAY_NAME_MAPPINGS
 
 
