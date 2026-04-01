@@ -56,6 +56,6 @@ class SwitchCombo:
 
     def switch(self, value: str, yes_value: str, no_value: str):
         if value == "yes":
-            return (True, yes_value)
+            return (True, [yes_value])
         else:
-            return (False, no_value)
+            return (False, [no_value])
