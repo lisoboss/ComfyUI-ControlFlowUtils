@@ -5,6 +5,7 @@ from .nodes import *
 NODES = [
     ## Flow
     # ForEach,
+    SwitchCombo,
 
     ## Stringer
     Split,
