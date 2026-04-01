@@ -49,7 +49,7 @@ class SwitchCombo:
             },
         }
 
-    RETURN_TYPES = ("BOOLEAN", "COMBO",)
+    RETURN_TYPES = ("BOOLEAN", "*",)
     DESCRIPTION = cleandoc(__doc__)
     FUNCTION = "switch"
     CATEGORY = "Flow"
