@@ -2,6 +2,30 @@ from inspect import cleandoc
 from typing import List
 
 
+class ToString:
+    """
+    Convert any input to a string
+    """
+    def __init__(self):
+        pass
+
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "input": ("*",),
+            },
+        }
+
+    RETURN_TYPES = ("STRING",)
+    DESCRIPTION = cleandoc(__doc__)
+    FUNCTION = "to_string"
+    CATEGORY = "Stringer"
+
+    def to_string(self, input):
+        return (str(input),)
+
+
 class Split:
     """
     Split a string into a list of strings

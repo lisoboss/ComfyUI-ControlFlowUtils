@@ -1,26 +1,29 @@
-from .nodes import *
-
+from .nodes import (
+    flow,
+    stringer,
+)
 
 
 NODES = [
     ## Flow
-    # ForEach,
-    SwitchCombo,
+    # flow.ForEach,
+    flow.SwitchCombo,
 
     ## Stringer
-    Split,
-    Join,
-    Dedup,
-    Sort,
-    Reverse,
-    Length,
-    Substring,
-    Upper,
-    Lower,
-    Capitalize,
-    Title,
-    SwapCase,
-    Strip,
+    stringer.ToString,
+    stringer.Split,
+    stringer.Join,
+    stringer.Dedup,
+    stringer.Sort,
+    stringer.Reverse,
+    stringer.Length,
+    stringer.Substring,
+    stringer.Upper,
+    stringer.Lower,
+    stringer.Capitalize,
+    stringer.Title,
+    stringer.SwapCase,
+    stringer.Strip,
 ]
 
 # A dictionary that contains all nodes you want to export with their names

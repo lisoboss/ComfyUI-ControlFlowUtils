@@ -1,3 +1,9 @@
-from .example import Example
-from .flow import *
-from .stringer import *
+from . import (
+    flow,
+    stringer,
+)
+
+__all__ = [
+    'flow',
+    'stringer',
+]

@@ -16,7 +16,7 @@ class ForEach:
                 "items": ("*",),
             },
         }
-    
+
     INPUT_IS_LIST = True
     RETURN_TYPES = ("*",)
     OUTPUT_IS_LIST = (True, )
